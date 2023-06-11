@@ -1,0 +1,16 @@
+.custom-button-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.custom-button{
+    width: 300px;
+    height: 8vh;
+    color: white;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: hsl(0, 95%, 51%);
+}

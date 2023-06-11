@@ -3,7 +3,7 @@ import React from 'react'
 const AboutPage = () => {
   return (
     <div>
-      This is About Page
+    <h1 style={{color:'white'}}>Hello from ABOUT Page -----</h1>
     </div>
   )
 }

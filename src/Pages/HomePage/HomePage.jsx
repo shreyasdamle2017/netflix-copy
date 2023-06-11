@@ -3,8 +3,8 @@ import './styles.css'
 
 const HomePage = () => {
   return (
-    <div>
-        HomePage
+    <div className='homepage-container'>
+        <h1 style={{color:'white'}}>Hello from Home Page</h1>
     </div>
   )
 }

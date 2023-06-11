@@ -19,7 +19,7 @@ const LoginComponent = () => {
                         <input
                         type="checkbox"
                         />
-                    Remember me!
+                    Remember me!!
                     </label>
                 </div>
                 <div className='help-container'>

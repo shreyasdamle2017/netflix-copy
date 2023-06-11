@@ -7,9 +7,9 @@ import SignInPage from './Pages/SignIn/SignInPage';
 
 function App() {
   return (
-    <div>
+    <div className='app-container'>
       <NavbarComponent />
-      <div>
+      <div className='page-container'>
         <Routes>
           <Route exact path='/' Component={HomePage} />
           <Route path='/about' Component={AboutPage} />

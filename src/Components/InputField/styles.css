@@ -10,6 +10,10 @@
     height: 50px;
     width: 300px;
     border-radius: 10px;
+    color: white;
+    border: '5px solid yellow';
+    font-size: larger;
+    padding-bottom: 10px;
 }
 .input-placeholder{
     color: #8C8C89;
@@ -30,6 +34,6 @@
 }
 
 .input-container:focus-within label {
-    transform: translate(0, 12px) scale(0.8);
+    transform: translate(0, 10px) scale(0.8);
     color: #6e6e6d;
   }

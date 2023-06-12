@@ -1,6 +1,6 @@
 .login-component-container{
     height: 80vh;
-    width: 25vw;
+    width: 350px;
     background-color:#000000;
     border: 1px solid black;
     opacity: 0.8;
@@ -33,3 +33,8 @@
     color: white;
     font-size: medium;
 }
+
+.signup-link-container{
+    width: 300px;
+}
+

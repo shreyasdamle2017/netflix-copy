@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 import NavbarComponent from './Components/Navbar/NavbarComponent';
 import HomePage from './Pages/HomePage/HomePage';
@@ -11,7 +11,8 @@ function App() {
       <NavbarComponent />
       <div className='page-container'>
         <Routes>
-          <Route exact path='/' Component={HomePage} />
+        <Route exact path='/' element={<Navigate to='sign-in' />} />
+          <Route path='/home' Component={HomePage} />
           <Route path='/about' Component={AboutPage} />
           <Route path='/sign-in' Component={SignInPage} />
         </Routes>

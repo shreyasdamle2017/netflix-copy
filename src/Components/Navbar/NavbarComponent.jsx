@@ -3,6 +3,7 @@ import './styles.css'
 
 import { Link } from 'react-router-dom';
 
+import logo from './Static/Netflix Logo.png';
 
 const NavbarComponent = () => {
   return (
@@ -10,8 +11,8 @@ const NavbarComponent = () => {
       <nav className='nav-links-container'>
         <ul className='nav-links'>
           <li>
-            <Link className='nav-link' to="/">Home</Link>
-          </li>
+            <Link className='nav-link' to="/home"><img className='nav-link-logo' src = {logo} alt='logo'/>  </Link>
+          </li>  
           <li>
             <Link className='nav-link' to="/about">About</Link>
           </li>

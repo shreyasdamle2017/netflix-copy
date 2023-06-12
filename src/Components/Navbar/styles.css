@@ -18,10 +18,16 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .nav-link {
     text-decoration: none; 
-    font-size: larger;
+    font-size: x-large;
     color: aliceblue;
+}
+
+.nav-link-logo{
+    width: 200px;
+    height: auto;
 }

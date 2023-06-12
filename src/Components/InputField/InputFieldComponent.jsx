@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './styles.css';
 
 const InputFieldComponent = (props) => {
+
+  const [inputValue, setInputValue] = useState('');
+
+  const handleInput = (e) => {
+    const value = e.target.value;
+    setInputValue(value);
+  };
+
   return (
     <div className='input-container'>
-        <input className='input-field' type={props.inputType} value={props.inputValue} />
-        <label className='input-placeholder'>{props.placeHolder}</label>
+        <input className='input-field' type={props.inputType} value={inputValue} onChange={handleInput}/>
+        { !inputValue && (<label className='input-placeholder'>{props.placeHolder}</label>)}
     </div>
   )
 }
